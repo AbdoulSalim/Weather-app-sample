@@ -1,0 +1,75 @@
+.weather-container {
+  background-color: peru;
+  height: 525px;
+  width: 80%;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+}
+
+.weather-header {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.weather-header div {
+  display: flex;
+  border-bottom: 2px solid #eee;
+  width: 80%;
+  margin: auto;
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  outline: none;
+  width: 100%;
+  color: #d5d8dc;
+  font-size: 1.2rem;
+}
+
+.weather-header button {
+  border: none;
+  background: transparent;
+  color: #d5d8dc;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-input::-webkit-input-placeholder {
+  font-size: 1.1rem;
+  color: #eee;
+  opacity: 0.5;
+}
+
+.weather-info {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.weather-info i {
+  color: yellow;
+  position: relative;
+  left: 5px;
+  animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  color: beige;
+}

@@ -6,7 +6,7 @@ const WeatherContainer = () => {
   const [weatherData, setWeatherData] = useState({
     temp: null,
     humidity: null,
-    description: null,
+    desc: null,
     city: null
   });
 
